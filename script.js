@@ -1,9 +1,8 @@
-// Dark mode toggle
+
 const darkModeToggle = document.querySelector('.darmode');
 darkModeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
 
-  // Toggle dark mode icon
   const isDarkMode = document.body.classList.contains('dark-mode');
   const darkModeIcon = document.querySelector('.darmode i');
   if (isDarkMode) {
@@ -13,7 +12,6 @@ darkModeToggle.addEventListener('click', () => {
   }
 });
 
-// Hamburger menu toggle
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const hamburgerIcon = document.querySelector('.hamburger-menu i');
